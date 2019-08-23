@@ -38,7 +38,7 @@ public class TestBase {
 		if(BrowserName.equalsIgnoreCase("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver",
-					"C:\\Programs\\ChromeDriver\\chromedriver_win32\\chromedriver.exe");
+					"C:\\Programs\\ChromeDriver\\76\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		else if(BrowserName.equalsIgnoreCase("firefox"))

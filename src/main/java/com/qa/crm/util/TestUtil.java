@@ -14,11 +14,15 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import com.qa.crm.base.TestBase;
 
 public class TestUtil extends TestBase{
 public static long PAGE_LOAD_TIMEOUT=20;
 public static long IMPLICIT_WAIT=20;
+
+
 
 public static String TESTDATA_SHEET_PATH = "C:\\Programs\\pall\\SamplePOM\\src\\main\\java\\com\\qa\\crm\\testdata\\FreeCrmTestData.xlsx";
 
